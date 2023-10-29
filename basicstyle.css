@@ -19,12 +19,32 @@ body {
 }
 
 .header-child {
-    padding: 10px 16px;
+    /* padding: 10px 16px; */
     background: #555;
     color: #f1f1f1;
     position:relative;
     margin:10px auto;
     display:inline-block;
+  }
+
+  a.btn, input.button {
+    
+    font-size: 20px !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+}
+
+.prettybutton {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
   }
 
 .content {
