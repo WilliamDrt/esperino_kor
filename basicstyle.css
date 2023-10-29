@@ -14,7 +14,19 @@ body {
   padding: 10px 16px;
   background: #555;
   color: #f1f1f1;
+  text-align:center;
+  position:relative;
 }
+
+.header-child {
+    padding: 10px 16px;
+    background: #555;
+    color: #f1f1f1;
+    text-align:center;
+    position:relative;
+    margin:10px auto;
+    display:inline-block;
+  }
 
 .content {
   padding: 16px;
