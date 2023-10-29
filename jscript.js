@@ -2,8 +2,8 @@
 
 window.onscroll = function() {handleScroll()};
 
-var header = document.getElementById("myHeader");
-var sticky = header.offsetTop;
+let header = document.getElementById("myHeader");
+let sticky = header.offsetTop;
 
 function handleScroll() {
   if (window.scrollY > sticky) {
