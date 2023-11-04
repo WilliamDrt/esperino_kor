@@ -1,3 +1,11 @@
+*{
+  box-sizing: border-box;
+  background-color: var(--bgCol);
+}
+
+:root{
+  --bgCol:  #f1f1f1;  /*  #f1f1f1 */
+}
 
 body {
   margin: 0;
@@ -5,7 +13,7 @@ body {
 }
 
 .top-container {
-  background-color: #f1f1f1;
+  background-color: var(--bgCol);
   padding: 30px;
   text-align: center;
 }
@@ -13,7 +21,7 @@ body {
 .header {
   padding: 10px 16px;
   background: #555;
-  color: #f1f1f1;
+  color: var(--bgCol);
   text-align:center;
   position:relative;
 }
@@ -21,7 +29,7 @@ body {
 .header-child {
     /* padding: 10px 16px; */
     background: #555;
-    color: #f1f1f1;
+    color: var(--bgCol);
     position:relative;
     margin:10px auto;
     display:inline-block;
@@ -32,6 +40,23 @@ body {
     font-size: 20px !important;
     padding-left: 20px !important;
     padding-right: 20px !important;
+}
+
+.fixedbutton{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px; 
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+
 }
 
 .prettybutton {
@@ -48,7 +73,7 @@ body {
   }
 
 .content {
-  /*padding: 16px;*/
+  padding: 16px 32px;
 }
 
 .sticky {
