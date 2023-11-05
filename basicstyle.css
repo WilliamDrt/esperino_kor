@@ -83,7 +83,7 @@ header {
   text-overflow: ellipsis;
   border-radius: 32px;
   width: 160px;
-
+  height:60px;
 }
 .fixedheader{
   position: fixed;
