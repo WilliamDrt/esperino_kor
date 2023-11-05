@@ -81,8 +81,8 @@ header {
   margin: 4px 2px;
   cursor: pointer;
   text-overflow: ellipsis;
-  border-radius: 16px;
-  width:70px;
+  border-radius: 32px;
+  width: 160px;
 
 }
 .fixedheader{
