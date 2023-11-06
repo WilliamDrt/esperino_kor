@@ -42,14 +42,18 @@ header {
 } 
 
 .content {
-  padding: 16px;
-  margin-top: 35px;
+  padding: 16px ;
+  margin: 35px 15px 5px 15px;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  /* border: 1px solid rgb(15, 15, 15); */
-  margin: 50px;
+  border: 1px solid rgb(200,200,200);
+  
 }
 
-
+.dayheader {
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
+}
 .header-child {
     /* padding: 10px 16px; */
     background: #555;
@@ -73,12 +77,12 @@ header {
   background-color: #222122;
   border: none;
   color: white;
-  padding: 32px 32px; 
+  padding: 0; 
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  margin: 4px 2px;
+  margin: 12px 12px;
   cursor: pointer;
   text-overflow: ellipsis;
   border-radius: 32px;
