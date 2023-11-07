@@ -28,6 +28,7 @@ function colorToday() {
       break
     case 2:
         document.getElementById("day1").style["color"] = "blue";
+        document.getElementById("day1").scrollIntoView(); 
       break
     case 3:
        document.getElementById("day2").style["color"] = "blue";
