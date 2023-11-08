@@ -1,47 +1,47 @@
 
 
-window.onscroll = function() {handleScroll()};
+// window.onscroll = function() {handleScroll()};
 
-let header = document.getElementById("myHeader");
-let sticky = header.offsetTop;
+// let header = document.getElementById("myHeader");
+// let sticky = header.offsetTop;
 
-function handleScroll() {
-  if (window.scrollY > sticky) {
-    header.classList.add("sticky");
-  } else {
-    header.classList.remove("sticky");
-  }
-}
+// function handleScroll() {
+//   if (window.scrollY > sticky) {
+//     header.classList.add("sticky");
+//   } else {
+//     header.classList.remove("sticky");
+//   }
+// }
 
-function todayIs() {
-  const d = new Date();
-  return d.getDay();
-}
+// function todayIs() {
+//   const d = new Date();
+//   return d.getDay();
+// }
 
 function colorToday() {
   const d = new Date();
   let day = d.getDay();
+  let dd = "";  
   // alert(day);
   switch(day){
     case 1:
-       document.getElementById("day0").style["color"] = "blue";
-      break
+      dd = "day0";
+      break;
     case 2:
-        document.getElementById("day1").style["color"] = "blue";
-        document.getElementById("day1").scrollIntoView(); 
-      break
+      dd = "day1";
+      break;
     case 3:
-       document.getElementById("day2").style["color"] = "blue";
-      break
+      dd = "day2";
+      break;
     case 4:
-       document.getElementById("day3").style["color"] = "blue";
-    break
+      dd = "day3";
+    break;
     case 5:
-      document.getElementById("day4").style["color"] = "blue";
-      break 
-    default :
-    alert(Date()); // display current date
+      dd = "day4";
+     break;
   }
-  
-
+  document.getElementById(dd).style["color"] = "blue";
+  document.getElementById(dd).scrollIntoView({ behavior: "smooth", block: "start", inline: "nearest" });
 }
+
+
